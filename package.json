@@ -1,0 +1,23 @@
+{
+	"name": "@paavveel/common",
+	"version": "1.0.0",
+	"description": "Core shared components for PaavveeelCinema microservices ecosystem",
+	"scripts": {
+		"build": "tsc -p tsconfig.build.json",
+		"format": "prettier --write \"src/**/*.ts\""
+	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@paavveel/core": "^1.0.3",
+		"@types/node": "^26.1.0",
+		"prettier": "^3.9.4",
+		"typescript": "^6.0.3"
+	}
+}
