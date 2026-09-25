@@ -1,6 +1,6 @@
 {
 	"name": "@paavveel/common",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"description": "Core shared components for PaavveeelCinema microservices ecosystem",
 	"scripts": {
 		"build": "tsc -p tsconfig.build.json",
@@ -14,16 +14,21 @@
 	"publishConfig": {
 		"access": "public"
 	},
+	"peerDependencies": {
+		"@nestjs/common": "^11.0.0",
+		"@nestjs/config": "^4.0.0",
+		"@nestjs/microservices": "^11.0.0"
+	},
 	"devDependencies": {
+		"@nestjs/common": "^11.1.27",
+		"@nestjs/config": "^4.0.2",
+		"@nestjs/microservices": "^11.1.27",
 		"@paavveel/core": "^1.0.3",
 		"@types/node": "^26.1.0",
 		"prettier": "^3.9.4",
 		"typescript": "^6.0.3"
 	},
 	"dependencies": {
-		"@nestjs/common": "^12.1.0",
-		"@nestjs/config": "^12.0.1",
-		"@nestjs/microservices": "^12.1.0",
 		"@paavveel/contracts": "^1.1.3"
 	}
 }
