@@ -143,10 +143,10 @@
     iterare "1.2.1"
     tslib "2.8.1"
 
-"@paavveel/contracts@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@paavveel/contracts/-/contracts-1.2.1.tgz#7abcc5f316c67814d2871d5b9d80ba4fe3b8fc14"
-  integrity sha512-ulZoDg3CR5L23XWTNeXk7+LwiYtDlPLhLzoa1sVpkdLsPQxycHCF7tJ+Vwjsgm9IMFRf/DDYPAb8I7qi1dNzRw==
+"@paavveel/contracts@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@paavveel/contracts/-/contracts-1.2.3.tgz#8adb201f31a3b6abf8008ba4651344fb1d9443c3"
+  integrity sha512-nNvmcvF/y4FyA3grjjkmdF/6T8HkWBFvQ4Cf7P82g5DTyRX+xVwPhtUyFWog9ASgvhRTHA8p50PXgrQCWDMgAg==
   dependencies:
     "@nestjs/microservices" "^11.1.27"
     rxjs "^7.8.2"
